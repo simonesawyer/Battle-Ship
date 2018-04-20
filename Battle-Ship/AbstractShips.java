@@ -26,7 +26,7 @@ public abstract class AbstractShips implements Ships {
 
     @Override
     public boolean sunk(){
-        return hitCells == size;
+        return hitCells.equals(size);
     }
 }
 
